@@ -8,38 +8,10 @@
 <body>
 <div>
     <h1>Danh sách thành phố</h1>
-    <button onclick="">Thêm thành phố</button>
-    <div id="form_edit">
-        <form>
-            <h2>Chỉnh sửa thành phố </h2>
-            <div>
-                <label for="ten"></label>
-                <input type="text" id="ten"></input>
-            </div>
-            <div>
-                <label for="quocGia"></label>
-                <input type="text" id="quocGia"></input>
-            </div>
-            <div>
-                <label for="dienTich"></label>
-                <input type="text" id="dienTich"></input>
-            </div>
-            <div>
-                <label for="danSo"></label>
-                <input type="text" id="danSo"></input>
-            </div>
-            <div>
-                <label for="moTa"></label>
-                <input type="text" id="moTa"></input>
-            </div>
-            <div>
-                <tr>
-                    <button>Cập nhật</button>
-                    <button>Thoát</button>
-                </tr>
-            </div>
-        </form>
-    </div>
+    <button onclick="showCreateForm()">Thêm thành phố</button>
+
+    <div id="create-edit-form"> </div>
+
     <div>
         <table class="container">
             <thead>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title id="title"></title>
+</head>
+<body>
+<div id="chi-tiet-thanh-pho">
+    <table>
+        <tr>
+            <th>Thành phố: </th>
+            <th id="tenTP"></th>
+            <th></th>
+            <th><a href="index.html"><button onclick="showAllCity()">Danh sách thành phố</button></a></th>
+        </tr>
+        <tr>
+            <td>Tên:</td>
+            <td id="ten"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>Quốc gia:</td>
+            <td id="quocGia"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>Diện Tích:</td>
+            <td id="dienTich"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>Dân số:</td>
+            <td id="danSo"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>GDP:</td>
+            <td id="GDP"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="4">Giới Thiệu:</td>
+        </tr>
+        <tr>
+            <td colspan="4"><textarea rows="10" style="width: 100%" id="moTa"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2"><a href="index.html"><button onclick="showEditCityForm(${id})">Chỉnh sửa</button></a></td>
+            <td colspan="2"><a href="index.html"><button onclick="showDeleteForm(${id})">Xóa</button></a></td>
+        </tr>
+    </table>
+</div>
+
+<script src="quan-ly-thanh-pho.js"></script>
+</body>
+</html>
